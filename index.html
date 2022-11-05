@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/all-style/import.css" />
+    <title>TheWineLocale</title>
+  </head>
+  <body>
+    <section class="loading show-flex" id="loading">
+      <img src="/images/logo.png" alt="" class="start-img" />
+    </section>
+
+    <!-- next page  -->
+
+    <main class="page hidden container" id="page">
+      <nav class="grid">
+        <a href="index.html"
+          ><img src="images/logoname.png" alt="" class="nav-logo"
+        /></a>
+
+        <!-- Menu Start -->
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+
+          <ul class="nav-txt">
+            <li>
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="/Contact us/index.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Menu End -->
+
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <section class="showcase container">
+        <article>
+          <h1 class="tx1">
+            <span class="txt-one">Shop. </span
+            ><span class="txt-two"> Refresh. </span
+            ><span class="txt-three"> Go.</span>
+          </h1>
+          <p class="p-txt txt1">
+            The wine bank is focused on providing you with quality wines at the
+            best prices. We have everything to make your wine experience
+            awesome. We also understand the need for quality and great taste.
+          </p>
+        </article>
+        <img src="images/wine.jpg" alt="" class="side-bg" />
+      </section>
+
+      <section class="showcase-two container">
+        <div class="bg-colo2">
+          <img src="images/open.jpg" alt="" class="show2-bg" />
+
+          <article class="opening-show">
+            <h1 class="opn-hr">Opening Hours</h1>
+            <div class="show2-grid">
+              <h1 class="show2-txt">Monday</h1>
+              <p class="show2-txt show2p-txt">8:00 am - 7:00 am</p>
+            </div>
+            <div class="show2-grid">
+              <h1 class="show2-txt">Tuesday</h1>
+              <p class="show2-txt show2p-txt">8:00 am - 7:00 am</p>
+            </div>
+            <div class="show2-grid">
+              <h1 class="show2-txt">Wednesday</h1>
+              <p class="show2-txt show2p-txt">8:00 am - 7:00 am</p>
+            </div>
+            <div class="show2-grid">
+              <h1 class="show2-txt">Thursday</h1>
+              <p class="show2-txt show2p-txt">8:00 am - 7:00 am</p>
+            </div>
+            <div class="show2-grid">
+              <h1 class="show2-txt">Friday</h1>
+              <p class="show2-txt show2p-txt">8:00 am - 7:00 am</p>
+            </div>
+            <div class="show2-grid">
+              <h1 class="show2-txt">Saturday</h1>
+              <p class="show2-txt show2p-txt">8:00 am - 7:00 am</p>
+            </div>
+            <div class="show2-grid">
+              <h1 class="show2-txt">Sunday</h1>
+              <p class="show2-txt show2p-txt">8:00 am - 7:00 am</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="showcase-three container">
+        <div class="show-txt3">
+          <h1 class="showtxt3">Location</h1>
+          <p id="address">
+            No. 80 Akenzua Road, off airport road Benin city, Edo state. No. 80
+            Benin city, Edo 12345 Nigeria
+          </p>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4715.827042068949!2d5.609897198366244!3d6.326324572221589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3ae35859a2f%3A0x77de7f27c8cfc657!2s80%20Akenzua%20Rd%2C%20Ogogugbo%20300102%2C%20Benin%20City!5e0!3m2!1sen!2sng!4v1665589101970!5m2!1sen!2sng"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <section class="showcase-four container">
+        <a href="/Contact us/index.html" class="btn-link show4-txt">
+          Contact us
+        </a>
+      </section>
+
+      <footer>
+        <p class="foot">@copywrite CORD</p>
+      </footer>
+    </main>
+  </body>
+
+  <script src="/index.js"></script>
+</html>
